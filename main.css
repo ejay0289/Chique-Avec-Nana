@@ -9,6 +9,8 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    
+
 
 }
 body{
@@ -20,19 +22,51 @@ body{
 
 header{
     width: 100%;
-    height: 6rem;
+    height: 7rem;
     background-color: #2B2929;
     border-bottom: 0;
 }
-.chique{
-    width: auto;
+.chique a{
+    
+width: auto;
+    text-decoration: none;
     color: white;
-    font-size: 1.8rem;
+    font-size: 3.5rem;
     font-family: satisfy;
+}
+header-2 a:hover{
+    color: red;
+
+}
+.item-title{
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+.item-text{
+    text-align: center;
+    
+}
+
+li.women-link a{
+    padding: 1.9rem;
+    background-color: gray !important;
+
+}
+li.men-link a{
+    padding: 1.6rem 3.5rem;
+    background-color: black !important;
+}
+.link-list{
+    display: flex;
+}
+.chique ul{
+    display: flex;
 }
 
 .first-nav-wrapper{
     display: flex;
+    
 }
 
 ul{
@@ -53,15 +87,17 @@ li a{
     padding: 10px;
     cursor: pointer;
 }
-li a:hover{
-    color:red;
+ a:hover{
+    color:rgb(255, 255, 255);
     transition: 0.5s;
 }
 
 .header-2{
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
     min-width: 500px;
-    height: 4.5rem;
+    height:5.5rem;
     background-color: #bababa;
 }
 .access-wrapper a{
@@ -118,6 +154,12 @@ a:hover{
     gap: 2.5rem;
     padding: 6rem;
 }
+.grid-cols-auto2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2.5rem;
+    padding: 6rem;
+}
 
 .flex-rows-2 {
     display: flex;
@@ -154,24 +196,67 @@ img{
     height: 100%;
     object-fit: cover;
 }
-.jeans-wrapper img{
+.section a{
+    text-decoration: none;
+    color: black;
+}
+ section a:hover{
+     color: rgb(160, 158, 158);
+ }
 
+ .contacts{
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     height: 5.5rem;
+     background-color: #534545;
+     margin-top: 7.6rem;
+     margin-bottom: 0;
+ }
+.facebook-logo{
+    height: 5rem;
+    width: 5rem;
+}
+.insta-logo{
+    height: 5rem;
+    width: 5rem;
+}
+.whatsapp-logo{
+    height: 5rem;
+    width: 5rem;
+}
+.help-about{
+
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 32rem;
     
 }
-
-.butterfly-wrapper{
-    
+.copyright{
+    background-color: black;
+    width: 100%;
+    height: 5rem;
+    color: white;
+    padding-top: 1.5rem;
 }
 
-.butterfly1-image img{
- 
+.bottom-container li{
+    display: block;
+    margin: 1.5rem;
 }
-
-.ear-muffs img{
-
+.bottom-container{
+    display: flex;
+    font-size: larger;
 }
-
-.ear-muffs{
-  
+.about-us{
+    padding-left: 20rem;
 }
-
+.zambia{
+    padding-left: 70rem;
+}
+.bottom-container a{
+    color: #2B2929;
+}
+.bottom-container a:hover{
+    color: white;
+}
